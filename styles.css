@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0bccc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #1e3a8a;
+}
+
+a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-add {
+    background-color: #2563eb;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #ef4444;
+    color: white;
+}
+
+.btn-status {
+    background-color: #22c55e;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+th {
+    background-color: #1e40af;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #1e40af;
+}
+
+.error-message {
+    color: red;
+    padding: 10px 0;
+}
+
+.games-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.empty-message {
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.status-not-started {
+    color: #6b7280; 
+    font-weight: bold;
+}
+
+.status-in-progress {
+    color: #2563eb; 
+    font-weight: bold;
+}
+
+.status-completed {
+    color: #22c55e; 
+    font-weight: bold;
+}
+
